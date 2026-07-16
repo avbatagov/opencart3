@@ -10,4 +10,4 @@
 
 После чего добавить нужную логику в контроллер категории /catalog/controller/product/category.php:101-134 (модифицированный файл есть в репозитории)
 
-А также вывести их в шаблоне категории TWIG /www/ocstore.alexey-batagov.ru/catalog/view/theme/default/template/product/category.twig:170-275
+А также вывести их в шаблоне категории TWIG /catalog/view/theme/default/template/product/category.twig:170-275
