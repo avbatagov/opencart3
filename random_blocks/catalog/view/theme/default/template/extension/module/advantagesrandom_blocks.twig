@@ -1,0 +1,26 @@
+{% if blocks %}
+<div class="advantages__random--block">
+	<div class="advantages__padding--top">
+		<div class="main-title">
+		{% if heading_title %}
+			<h2>{{ heading_title }}</h2>
+		{% endif %}
+		</div>
+	</div>
+	<div class="html-box">
+		<div class="advantages__items">
+		{% for block in blocks %}
+			<div class="advantages__item-block">
+				<div class="text-center">
+					<div class="image__block--advantages" style="background: url('{{ block.image }}') center center no-repeat; background-size: contain;"></div>
+					<div class="caption">
+						<b>{{ block.title }}</b>
+						<p>{{ block.description }}</p>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% endif %}

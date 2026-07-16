@@ -1,0 +1,24 @@
+.reviews__random--block {padding-top: 50px;}
+.image__title--reviews {display: flex; align-items: flex-start; justify-content: left;}
+.image__title--reviews .image__block--reviews {width: 77px; height: 77px; min-width: 77px; min-height: 77px; border: solid 1px #dedede; border-radius: 50%; margin-right: 17px;}
+.title__date--reviews b {display: block;}
+.title__date--reviews span {color: #778899}
+.rating__block--reviews i {color: #ffd000;}
+.caption__block--reviews {padding-top: 7px;}
+
+.reviews__random--block .slick-track {display: flex; flex-wrap: nowrpap;}
+.reviews__padding--top {padding: 20px 0px;}
+.reviews__random--block .main-title h2 {font-weight: normal; font-size: 24px;}
+.reviews__random--block .html-box {padding: 20px 0px 20px 0px;}
+.reviews__random--block .image__title--reviews, .reviews__random--block .caption__block--reviews {padding: 10px;}
+
+.reviews__slider--item {}
+
+.reviews__random--block  {position: relative;}
+.reviews__random--block .slick-prev {height:  32px; width:32px; background: #eee; border-radius: 4px; display: flex; align-items: center;justify-content: center; position:absolute; top: -77px;  right: 36px; z-index: 2;}
+.reviews__random--block .slick-next {height:  32px; width:32px; background: #eee; border-radius: 4px; display: flex; align-items: center;justify-content: center; position:absolute; top: -77px;  right: 0px; z-index: 2;}
+
+.reviews__random--block .slick-dots {display: flex; align-items: center;justify-content: center; width: 100%; flex-wrap: wrap; padding-top: 27px}
+.reviews__random--block .slick-dots li {list-style:none;}
+.reviews__random--block .slick-dots li button {width: 14px; height: 14px; margin-right: 8px; padding: 0; background: rgb(224, 227, 230);display: block;-webkit-backface-visibility: visible; -webkit-transition: background .3s ease;transition: background .3s ease; border: 2px solid #fff; border-radius: 8px; text-indent: -9999px;overflow: hidden;}
+.reviews__random--block .slick-dots li.slick-active button, .related__products--slider .slick-dots li:hover button {background-color: #4a4a4a;}
